@@ -1,0 +1,120 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>IGN Code Foo Challenge - Question 2</title>
+<link type="text/css" href="reset.css" media="all" rel="stylesheet"/>
+<link type="text/css" href="style.css" media="screen and (min-width: 601px)" rel="stylesheet"/>
+<link type="text/css" href="narrow.css" media="screen and (max-width: 600px)" rel="stylesheet"/>
+</head>
+
+<body onload="updateBox()">
+<div id="wrapper"> 
+  <div id="header">
+    <h1>IGN Code Foo Challenge <span class="slogan">by Eric Sare</span></h1>
+  </div>
+  <div id="nav">
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Item 2</a></li>
+      <li><a href="#">Item 3</a></li>
+      <li><a href="#">Item 4</a></li>
+      <li><a href="#">Item 5</a></li>
+    </ul>
+  </div>
+  <div id="main">
+      <div id="msgBox">
+            The current window size is: <br/>
+            <span id="height"></span> by <span id="width"></span> pixels <br/>
+            <span id="version"></span>
+      </div>  
+    <h2>Answer to Question 2 of Code Foo Challenge</h2>
+    <p class="post"><span class="meta">Posted by Eric Sare on April 29, 2012  &bull; <a href="#">Comments (64)</a> &bull; <a href="#">Full article</a></span></p>
+    <p>A liquid layout allows contents to expand or contract dynamically, texts on the page can reflow to accomodate the change in screen size as well.</p>
+    <p>This sample page demonstrates how a liquid design responds to the changes in screen size. The page will switch to a mobile version when the window width goes below 600 pixels. Please have fun resizing the window and see how the page changes!</p>
+    <p class="links"><a href="#" >Read More</a> <span class="pipe">|</span> <a href="#">Comments</a></p>
+
+    <h2>Code Foo Challenge - Question 2</h2>
+    <p class="post"><span class="meta">Posted by IGN on March 1, 2012  &bull; <a href="#">Comments (64)</a> &bull; <a href="#">Full article</a></span></p>
+    <p> Create a liquid layout with HTML, CSS, and Javascript. This layout must support the following resolutions: 1024x768, 1680x1050. Explain why you would use a liquid layout.</p>
+    <p  class="links"><a href="#">Read More</a> | <a href="#">Comments</a></p>
+
+  </div>
+  <div id="sidebar">
+    <h3>Aliquam tempus</h3>
+    
+
+    <p>Mauris vitae nisl nec metus placerat perdiet est. Phasellus dapibus semper consectetuer hendrerit.</p>
+    
+
+    <h3>Categories 1</h3>
+    
+
+    <ul>
+      <li><a href="#">Aliquam libero</a></li>
+      <li><a href="#">Consectetuer adipiscing elit</a></li>
+      <li><a href="#">Metus aliquam pellentesque</a></li>
+      <li><a href="#">Suspendisse iaculis mauris</a></li>
+      <li><a href="#">Urnanet non molestie semper</a></li>
+      <li><a href="#">Proin gravida orci porttitor</a></li>
+    </ul>
+    
+
+    <h3>Categories 2</h3>
+    
+
+    <ul>
+      <li><a href="#">Aliquam libero</a></li>
+      <li><a href="#">Consectetuer adipiscing elit</a></li>
+      <li><a href="#">Metus aliquam pellentesque</a></li>
+      <li><a href="#">Suspendisse iaculis mauris</a></li>
+      <li><a href="#">Urnanet non molestie semper</a></li>
+      <li><a href="#">Proin gravida orci porttitor</a></li>
+    </ul>
+    
+
+    <h3>Categories 3</h3>
+    
+
+    <ul>
+      <li><a href="#">Aliquam libero</a></li>
+      <li><a href="#">Consectetuer adipiscing elit</a></li>
+      <li><a href="#">Metus aliquam pellentesque</a></li>
+      <li><a href="#">Suspendisse iaculis mauris</a></li>
+      <li><a href="#">Urnanet non molestie semper</a></li>
+      <li><a href="#">Proin gravida orci porttitor</a></li>
+    </ul>
+  </div>
+</div>
+<div id="footer">
+  <p> By Eric Sare for IGN Code Foo Challenge 2012.</p>
+</div>
+
+<script language="JavaScript" type="text/javascript">
+<!-- 
+var reminder;
+function displayAlert() {
+    var height = window.innerHeight;
+    var width = window.innerWidth;
+    var msgBoxHeight = document.getElementById("height");
+    var msgBoxWidth = document.getElementById("width");
+    var msgBoxVersion = document.getElementById("version");
+
+    if(width <= "600")
+        msgBoxVersion.innerHTML = "&#40;mobile version&#41";
+    else
+        msgBoxVersion.innerHTML = "&#40;desktop version&#41";
+
+
+    msgBoxHeight.innerHTML = height;
+    msgBoxWidth.innerHTML = width;
+
+}
+function updateBox() {
+	reminder = setInterval("displayAlert()", 10);
+}
+// -->
+</script>
+
+</body>
+</html>
